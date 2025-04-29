@@ -4,7 +4,7 @@
 
 > **⚠ Disclaimer:**  
 > This tool is intended solely for educational and authorized testing purposes. Unauthorized use of these techniques is illegal and unethical.
-
+A new version with embedded EXE, UAC bypass, webcam, and screenshot features is coming soon!
 ---
 
 ## 📌 Overview
