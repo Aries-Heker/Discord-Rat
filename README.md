@@ -1,119 +1,127 @@
-# 👻 GhostPanel
+   _____ _               _     ____                  _
+  / ____| |             | |   |  _ \                | |
+ | |  __| | ___  _   _  | |__ | |_) | ___  __ _  ___| | _____ _ __
+ | | |_ | |/ _ \| | | | | '_ \|  _ < / _ \/ _` |/ __| |/ / _ \ '__|
+ | |__| | | (_) | |_| | | |_) | |_) |  __/ (_| | (__|   <  __/ |
+  \_____|_|\___/ \__,_| |_.__/|____/ \___|\__,_|\___|_|\_\___|_|
+```
 
-**A multi-functional Discord bot for Windows remote administration and control.**
+# 👻 **GhostPanel**
 
----
-
-## 🚨 WARNING
-
-**This project is for educational and authorized testing purposes only. Unauthorized use of keyloggers or remote administration tools is illegal and unethical.**
-
----
-
-## 🧭 Overview
-
-GhostPanel is a powerful Discord bot for Windows that lets you control a PC remotely via Discord commands and buttons. It supports privilege escalation, keylogging, screenshots, webcam capture, mouse disruption, screen blocking, persistence, notifications, and more.
+> **The Ultimate Discord Remote Admin Bot for Windows**
 
 ---
 
-## 🌟 Features
+## 🚨 **WARNING**
 
-- 🛡️ Privilege Escalation (run as admin)
-- 🤖 Discord Bot with UI buttons and commands
-- ⌨️ Keylogger (logs sent to Discord)
-- 🖥️ Screen Capture (send desktop screenshots)
-- 📷 Webcam Capture (send webcam photos)
-- 🖱️ Mouse Manipulation (move mouse randomly)
-- 🔒 Screen Blocking (fullscreen overlay)
-- 📌 Persistence (auto-run on login)
-- 🔔 Notifications (status/alerts to Discord)
-- 🌍 Location Retrieval (get geolocation by IP)
+**This tool is for LEGAL, ETHICAL, and EDUCATIONAL use only. Unauthorized use WILL get you in trouble.**
+
+---
+
+## 💥 Why GhostPanel?
+
+- **Unleash** the power of Discord to control your Windows machine like a cyber-ninja.
+- **All-in-one**: Keylogging, screenshots, webcam, mouse mayhem, screen blocking, persistence, and more.
+- **Stealthy**: Operate from anywhere, all from your Discord server.
+- **No-nonsense**: Fast setup, no bloat, just pure remote power.
+
+---
+
+## ⚡ Features
+
+- 🛡️ **Privilege Escalation** (run as admin)
+- 🤖 **Discord Bot** (UI buttons & commands)
+- ⌨️ **Keylogger** (logs sent to Discord)
+- 🖥️ **Screen Capture** (desktop screenshots)
+- 📷 **Webcam Capture** (snap a photo)
+- 🖱️ **Mouse Mayhem** (random movement)
+- 🔒 **Screen Blocker** (fullscreen lockdown)
+- 📌 **Persistence** (auto-run on login)
+- 🔔 **Notifications** (status/alerts to Discord)
+- 🌍 **Location Retrieval** (find the machine)
 
 ---
 
 ## 🚀 Quickstart
 
-1. **Install Python 3.8+** ([Download here](https://www.python.org/downloads/windows/))
-   - Make sure to check "Add Python to PATH" during install.
-2. **Clone or Download** this project.
+1. **Install Python 3.8+** ([Download](https://www.python.org/downloads/windows/))
+2. **Clone or Download** this repo
 3. **Install dependencies:**
    ```bash
    pip install discord.py discord-webhook keyboard opencv-python imageio pyautogui requests
    ```
-4. **Configure the bot:**
-   - Open `GhostPanel.py` in a text editor.
-   - Replace `add_token` with your Discord bot token.
-   - Set `NOTIFICATIONS_CHANNEL_ID` to your Discord channel ID.
-5. **Run the bot:**
+4. **Configure:**
+   - Edit `GhostPanel.py` and add your bot token & channel ID
+5. **Run:**
    ```bash
    python GhostPanel.py
    ```
-6. **Control via Discord:**
-   - Use the provided UI buttons or commands in your Discord server.
+6. **Command your machine from Discord!**
 
 ---
 
-## 🛠️ Setup (Windows Only)
+## 🏴‍☠️ Showcase
 
-- Download or copy all files to the same folder on your Windows machine.
-- Edit `GhostPanel.py` to add your bot token and channel ID.
-- Open Command Prompt in the folder and run:
-  ```bash
-  python GhostPanel.py
-  ```
+**Block the screen:**
+```text
+[You] 🔒 !blockscreen
+[GhostPanel] > Screen is now locked. Good luck!
+```
+
+**Trigger a screenshot:**
+```text
+[You] 🖥️ !screenshot
+[GhostPanel] > Screenshot captured! (image attached)
+```
+
+**Start the keylogger:**
+```text
+[You] ⌨️ !keylogger start
+[GhostPanel] > Keylogger is now running. Logs will be sent every 15 seconds.
+```
+
+**Cause mouse chaos:**
+```text
+[You] 🖱️ !mousemayhem
+[GhostPanel] > Mouse is now out of control! Muhaha!
+```
 
 ---
 
-## 🕹️ Usage
+## 🦾 Commands & Controls
 
-- Interact with the bot via Discord using UI buttons or commands.
-- All actions are performed on the Windows machine where the bot is running.
-- Features can be toggled or triggered remotely.
+- 🔒 `!blockscreen` — Lock the screen
+- 💀 `!bsod` — Blue Screen of Death (admin only)
+- 🖱️ `!mousemayhem` — Start/stop mouse chaos
+- 🦠 `!runexe` — Run embedded EXE
+- 🖥️ `!screenshot` — Take a screenshot
+- 📷 `!webcam` — Snap a webcam photo
+- ⌨️ `!keylogger start/stop` — Start/stop keylogger
+
+> **Pro tip:** Use the Discord UI buttons for instant action!
 
 ---
 
-## 📝 FAQ & Tips
-
-**Q: The bot won't start!**
-- Make sure Python 3.8+ is installed and added to PATH.
-- Check that all dependencies are installed (`pip install ...`).
-
-**Q: How do I get my Discord channel ID?**
-- Enable Developer Mode in Discord settings, right-click your channel, and select "Copy ID".
-
-**Q: Can I run this on Linux or Mac?**
-- No, GhostPanel is designed for Windows only.
+## 🧠 FAQ
 
 **Q: Is this legal?**
-- Only use on systems you own or have explicit permission to test. Unauthorized use is illegal.
+- Only if you have explicit permission. Don't be a script kiddie.
 
-**Q: How do I stop the bot?**
-- Close the Command Prompt window or stop the Python process.
+**Q: Can I run this on Linux/Mac?**
+- Nope. Windows only. This is GhostPanel, not GhostMac.
 
-**Tips:**
-- Use a dedicated Discord server for testing.
-- Keep your bot token secret!
+**Q: How do I stop it?**
+- Close the terminal or kill the Python process.
+
+**Q: My bot isn't responding!**
+- Double-check your token, channel ID, and dependencies.
 
 ---
 
 ## ⚖️ Legal & Ethical Notice
 
-This software is intended for educational purposes and authorized environments only. **Do NOT use it on systems without explicit permission.** Unauthorized use may violate laws and result in severe penalties.
+**GhostPanel is for white-hat, educational, and authorized use only.**
 
 ---
 
-## 🏷️ Discord Controls & Commands
-
-- 🔒 Block Screen: Activates the screen-blocking overlay.
-- 💀 Trigger BSOD: Attempts to force a Blue Screen of Death (requires admin).
-- 🖱️ Mess with Mouse: Starts/stops mouse disruption.
-- 🦠 Run EXE: Decodes and runs embedded executable (if present).
-- 🖥️ Screenshot: Captures and sends a screenshot.
-- 📷 Webcam Photo: Captures and sends a webcam photo.
-- ⌨️ Keylogger: Starts/stops keylogger, sends logs to Discord.
-
-> The bot may also support text commands. See the code for details or extend as needed.
-
----
-
-**Happy Hacking (Ethically)!**
+**Now go forth and control your machine like a legend. 👻**
