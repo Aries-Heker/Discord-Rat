@@ -1,33 +1,10 @@
-<!--
-🎩🤖✨
-██████╗ ██╗    ██╗██╗███╗   ██╗ ██████╗ ██████╗  ██████╗ ██╗     ██████╗  ██████╗ ████████╗
-██╔══██╗██║    ██║██║████╗  ██║██╔═══██╗██╔══██╗██╔═══██╗██║     ██╔══██╗██╔═══██╗╚══██╔══╝
-██████╔╝██║ █╗ ██║██║██╔██╗ ██║██║   ██║██████╔╝██║   ██║██║     ██║  ██║██║   ██║   ██║   
-██╔═══╝ ██║███╗██║██║██║╚██╗██║██║   ██║██╔══██╗██║   ██║██║     ██║  ██║██║   ██║   ██║   
-██║     ╚███╔███╔╝██║██║ ╚████║╚██████╔╝██║  ██║╚██████╔╝███████╗██████╔╝╚██████╔╝   ██║   
-╚═╝      ╚══╝╚══╝ ╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚═════╝  ╚═════╝    ╚═╝   
-✨🤖🎩
--->
-
-<p align="center">
-  <img src="https://img.shields.io/badge/python-3.10%2B-blue" alt="Python Version">
-  <img src="https://img.shields.io/badge/license-MIT-green" alt="License">
-  <img src="https://img.shields.io/badge/platform-Windows-blue" alt="Platform">
-</p>
-
-<p align="center">
-  <b>🎩🤖✨ WinControlBot ✨🤖🎩</b>
-</p>
-
-<p align="center">
-  <img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" width="400" alt="Bot Animation Placeholder">
-</p>
+# WinControlBot
 
 ━━━━━━━━━━━━━━━ ✦ ━━━━━━━━━━━━━━━
 
 ## Overview
 
-`GhostPanel.py` is a multi-functional Discord bot for Windows, designed for remote administration and control. It provides a range of features accessible via Discord commands and interactive UI buttons, including privilege escalation, keylogging, screen and webcam capture, mouse manipulation, and more.
+`bot.py` is a multi-functional Discord bot for Windows, designed for remote administration and control. It provides a range of features accessible via Discord commands and interactive UI buttons, including privilege escalation, keylogging, screen and webcam capture, mouse manipulation, and more.
 
 > **Warning:** This project is for educational and authorized testing purposes only. Unauthorized use of keyloggers or remote administration tools is illegal and unethical.
 
@@ -56,7 +33,6 @@
 - 🖥️ **Screen Capture:**
   - **How it works:** The bot uses the `pyautogui` library to take a screenshot of the user's desktop. The screenshot is saved as an image file and sent to Discord as an attachment, often embedded in a message for easy viewing. This feature can be triggered remotely via a Discord button.
   - **Libraries/APIs:** `pyautogui`, `discord.File`
-  - <img src="https://media.giphy.com/media/26ufnwz3wDUli7GU0/giphy.gif" width="300" alt="Screen Capture Demo">
 
 ━━━━━━━━━━━━━━━ 🌀 ━━━━━━━━━━━━━━━
 
@@ -125,14 +101,14 @@ If you encounter any errors, ensure Python and pip are correctly installed and a
    - Make sure all files are in the same folder on your Windows machine.
 
 2. **Configure the Bot**
-   - Open `GhostPanel.py` in a text editor.
+   - Open `bot.py` in a text editor.
    - Replace `add_token` with your Discord bot token.
    - Set `NOTIFICATIONS_CHANNEL_ID` to your Discord channel ID.
 
 3. **Run the Bot**
    - In Command Prompt or PowerShell, run:
      ```
-     python GhostPanel.py
+     python bot.py
      ```
 
 ━━━━━━━━━━━━━━━ ✦ ━━━━━━━━━━━━━━━
