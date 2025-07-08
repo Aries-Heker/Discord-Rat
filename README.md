@@ -2,7 +2,7 @@
 
 ## Overview
 
-`bot.py` is a multi-functional Discord bot for Windows, designed for remote administration and control. It provides a range of features accessible via Discord commands and interactive UI buttons, including privilege escalation, keylogging, screen and webcam capture, mouse manipulation, and more.
+`GhostPanel.py` is a multi-functional Discord bot for Windows, designed for remote administration and control. It provides a range of features accessible via Discord commands and interactive UI buttons, including privilege escalation, keylogging, screen and webcam capture, mouse manipulation, and more.
 
 > **Warning:** This project is for educational and authorized testing purposes only. Unauthorized use of keyloggers or remote administration tools is illegal and unethical.
 
@@ -81,14 +81,14 @@ If you encounter any errors, ensure Python and pip are correctly installed and a
    - Make sure all files are in the same folder on your Windows machine.
 
 2. **Configure the Bot**
-   - Open `bot.py` in a text editor.
+   - Open `GhostPanel.py` in a text editor.
    - Replace `add_token` with your Discord bot token.
    - Set `NOTIFICATIONS_CHANNEL_ID` to your Discord channel ID.
 
 3. **Run the Bot**
    - In Command Prompt or PowerShell, run:
      ```
-     python bot.py
+     python GhostPanel.py
      ```
 
 ---
